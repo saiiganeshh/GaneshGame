@@ -2,7 +2,7 @@ FROM adoptopenjdk/openjdk11
     
 EXPOSE 8080
  
-ENV APP_HOME /usr/src/appjj
+ENV APP_HOME /usr/src/appjjk
 
 COPY target/*.jar $APP_HOME/app.jar
 
